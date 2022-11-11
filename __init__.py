@@ -1,3 +1,2 @@
-from .create_dirs import create_dirs
-from .rename_pkg import rename_pkg
-from .gen_assets import gen_assets
+from .setup_structure import rename_pkg, create_dirs
+from .setup_essentials import gen_assets, setup_nav

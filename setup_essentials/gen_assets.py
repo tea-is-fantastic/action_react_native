@@ -1,5 +1,6 @@
 import os
 
+from actions.action_rn_android import bootsplash as bs_android
 from scripts.tif_util import download
 from scripts.tif_yaml import assets_yaml
 
@@ -19,6 +20,7 @@ def gen_splash():
   --assets-path=assets \
   --flavor=main'
     os.system(cmd)
+    bs_android()
 
 
 def gen_assets():
